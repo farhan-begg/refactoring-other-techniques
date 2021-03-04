@@ -1,27 +1,19 @@
 class Foods:
-
     def __init__(self, foods_object):
         self.foods_object = foods_object
-    
     def get_name(self, key):
         print("Name:", key)
-
     def get_prep_time(self, prep_time):
         print("Prep time:", prep_time, "mins")
-
     def is_veggie(self, is_veggie):
         print("Is Veggie?", 'Yes' if is_veggie else "No")
-
     def get_food_type(self, food_type):
         print("Food Type:", food_type)
-
     def get_cuisine(self, cuisine):
         print("Cuisine:", cuisine)
-
     def get_ingredients(self, ingredient_arr):
         for item in ingredient_arr:
             print(item, end=', ')
-
     def get_recipe(self, recipe):
         print("recipe", recipe)
 
@@ -43,7 +35,7 @@ if __name__ == "__main__":
                     'seasoning 3. Add all the content to a sausage stuffer. Put the casing on'
                     "the stuffer funnel. Rotate the stuffer's handle (or turn it on) to make your yummy sausages!"]}
 
-    foods = Foods(foods) #initialize foods class
+    foods = Foods(foods)
     for key, value in foods.foods_object.items():
         foods.get_name(key)
         foods.get_prep_time(value[0])

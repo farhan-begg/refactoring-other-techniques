@@ -32,7 +32,6 @@ class Wheel:
 
 class Tpms:
     """Tire Pressure Monitoring System."""
-    
     def __init__(self, serial_number):
         self.serial_number = serial_number
         self.sensor_transmit_range = 300 # [feet]

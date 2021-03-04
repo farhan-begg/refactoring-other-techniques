@@ -30,7 +30,6 @@ class Circle(Shape):
 class Rectangle(Shape):
     
     def __init__(self, x, y, width, height, visible = True):
-        # left-bottom corner.
         self.x = x
         self.y = y
         self.width = width
@@ -43,7 +42,7 @@ class Rectangle(Shape):
             
         
     def get_center(self):
-        return self.x + self.width/2, \
+        return self.x + self.width/2, 
                self.y + self.height/2 
 
 
