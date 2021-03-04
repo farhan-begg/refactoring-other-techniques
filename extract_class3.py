@@ -1,5 +1,3 @@
-# by Kami Bigdely
-# Extract class
 WELL_DONE = 3000
 MEDIUM = 2500
 COOKED_CONSTANT = 0.05

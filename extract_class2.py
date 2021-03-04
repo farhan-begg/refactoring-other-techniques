@@ -1,5 +1,3 @@
-# by Kami Bigdely
-# Extract class
 first_names = ['elizabeth', 'Jim']
 last_names = ['debicki', 'Carrey']
 birth_year = [1990, 1962]
